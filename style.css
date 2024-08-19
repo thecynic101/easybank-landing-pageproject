@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Public Sans", sans-serif ;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+}
+
+header{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav{
+ display: flex;
+ 
+}
+/* .hidden{
+    display: none;
+} */
+
+img{
+    max-width: 100%;
+}
+
+.img-abs{
+    position: absolute;
+    top: 0;
+}
+
+.img-rel{
+    position: relative;
+}
+
+.easy-bank{
+    margin-top: 300px;
+    text-align: center;
+    /* margin-top: 100px; */
+    padding: 16px;
+
+}
+
+.why{
+    text-align: center;
+    padding: 16px;
+    gap: 10px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* .why img{
+    display: block;
+    margin: auto;
+    margin-bottom: 6px;
+    
+} */
+
+
+.l-articles{
+    text-align: center;
+}
+
+.l-articles h2{
+    padding: ;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.article-img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px; }
+
+.article-txt{
+    padding: 100px;
+}
+
+.bttn{
+    background: linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    /* background-image: linear-gradient(90 deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    font: white;
+    border-radius: 50px; */
+}
+
+footer{
+    text-align: center;
+    background-color:hsl(233, 26%, 24%);
+    color: hsl(0, 0%, 98%);
+}
+
+.icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* text-decoration: none; */
+}
+
+.abt-us{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+    }
+
+    footer p{
+        margin-top: 10px;
+    }
