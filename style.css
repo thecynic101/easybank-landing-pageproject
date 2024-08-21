@@ -75,6 +75,104 @@ main img{
     padding: 50px;
 }
 
+.intro{
+    width: 40%;
+}
+
+.intro h1{
+    color: hsl(233, 26%, 24%);
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.intro p{
+    line-height: 25px;
+    color: rgb(141, 144, 150);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.section-two{
+    background-color: hsl(0, 0%, 98%);
+    margin-top: 30px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.st-text h1{
+    color: hsl(233, 26%, 24%);
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.st-text p{
+    color: hsl(233, 8%, 62%);
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    gap: 5px;
+}
+
+.cards h3{
+    color: hsl(233, 26%, 24%);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.cards p{
+    line-height: 25px;
+    color: rgb(141, 144, 150);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.cards img{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.section-three{
+    align-items: start;
+    background-color: hsl(0, 0%, 98%);
+    height: fit-content;
+}
+
+#st-header h2{
+    color: hsl(233, 26%, 24%);
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.articles{
+    display: flex;
+    width: auto;
+    gap: 20px;
+
+}
+
+.article-content img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    width: auto;
+}
+
+.article-content 
+
 .bg-img{
     position: relative;
 }
@@ -122,7 +220,7 @@ nav ul li {
     text-decoration: none;
     transition: background-image 0.3s ease;}
 
- .hidden{
+.hidden{
     display: none;
 } 
 
