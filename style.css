@@ -2,8 +2,105 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* Header and Navbar Styling */
+
+header{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+    /* height: 100%; */
+    /* box-shadow: 3px 5px white; */
+}
+
+nav ul li {
+    display: inline-block;
+    color: rgb(135, 138, 143);
+    text-align: center;
+    font-weight: 300;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    color:  rgb(135, 138, 143);
+    padding: 5px;
+}
+
+nav li a:hover{
+    color:rgb(110, 104, 104);
+    border-bottom: 3px solid green;
+}
+
+#dropdown{
+    display: none;
+}
+
+.bttn{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 25px;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+/* Main Section Styling */
+
+main{
+    background-color: white;
+    /* max-height: fit-content; */
+    overflow: hidden;
+    display: block;
+}
+
+main img{
+    max-width: 100%;
+}
+
+.section-one{
+    background-image: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+}
+
+.bg-img{
+    position: relative;
+}
+
+.intro-img{
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family:"Public Sans", sans-serif ;
 }
+
+
 
 body{
     font-family: 'Public Sans', sans-serif;
@@ -18,13 +115,16 @@ header{
     position: relative;
 }
 
-nav{
- display: flex;
- 
-}
-/* .hidden{
+nav ul li {
+    display: block;
+    padding: 1rem 2rem;
+    color: rgb(186, 191, 199);
+    text-decoration: none;
+    transition: background-image 0.3s ease;}
+
+ .hidden{
     display: none;
-} */
+} 
 
 img{
     max-width: 100%;
@@ -42,7 +142,7 @@ img{
 .easy-bank{
     margin-top: 300px;
     text-align: center;
-    /* margin-top: 100px; */
+    margin-top: 100px; 
     padding: 16px;
 
 }
@@ -54,12 +154,12 @@ img{
     background-color: hsl(0, 0%, 98%);
 }
 
-/* .why img{
+.why img{
     display: block;
     margin: auto;
     margin-bottom: 6px;
     
-} */
+} 
 
 
 .l-articles{
@@ -87,9 +187,6 @@ img{
     padding: 10px;
     border: none;
     margin-top: 10px;
-    /* background-image: linear-gradient(90 deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-    font: white;
-    border-radius: 50px; */
 }
 
 footer{
@@ -104,7 +201,7 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    /* text-decoration: none; */
+    /* text-decoration: none; 
 }
 
 .abt-us{
@@ -116,4 +213,4 @@ footer{
 
     footer p{
         margin-top: 10px;
-    }
+    } */
