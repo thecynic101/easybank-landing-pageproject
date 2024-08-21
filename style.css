@@ -18,6 +18,8 @@ header{
     /* box-shadow: 3px 5px white; */
 }
 
+
+
 nav ul li {
     display: inline-block;
     color: rgb(135, 138, 143);
@@ -297,7 +299,22 @@ nav ul li {
 
 .hidden{
     display: none;
-} 
+}
+
+nav{
+    position: absolute;
+    margin-top: 20px;
+    width: 90%;
+    z-index: 15;
+    background-color: #fff;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 100px 600px rgba(0, 0, 0, 0.9);
+    justify-items: center;
+    align-items: center;
+    transition: all;
+    transition-delay: 2s;
+}
 
 img{
     max-width: 100%;
