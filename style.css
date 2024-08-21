@@ -162,16 +162,37 @@ main img{
     display: flex;
     width: auto;
     gap: 20px;
-
+    padding: 30px;
+    align-items: start;
 }
+
 
 .article-content img{
     border-top-left-radius:10px;
     border-top-right-radius:10px;
-    width: auto;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
 }
 
-.article-content 
+.article-content span{
+    line-height: 20px;
+    color:rgb(141, 144, 150) ;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.article-content h3{
+    color:hsl(233, 26%, 24%);
+    font-size: 17px ;
+    margin-bottom: 10px;
+}
+
+.article-content p{
+    color: rgb(141, 144, 150);
+    font-size: 15px;
+    font-weight: 200;
+}
 
 .bg-img{
     position: relative;
@@ -182,16 +203,66 @@ main img{
     top: 0;
 }
 
+/* Footer Styling */
+
+footer{
+    background-color:hsl(233, 26%, 24%);
+    color: hsl(0, 0%, 98%);
+    display: flex;
+    height: fit-content;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+
+.logo-icons ul li{
+    text-decoration: none;
+}
+
+.logo-icons{
+    display: block;
+    gap: 15px;
+}
+
+.icons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    list-style: none; 
+}
+
+.abt-us{
+    list-style: none; 
+    column-count: 2;
+    column-gap: 10px;
+    /* -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px; */
+    /* column-count: 2;
+    column-gap: 10px; */
+
+}
+
+.btn-copy p{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 15px;
+}
 
 
 
 
 
+/* Responsive Design Styling */
 
-
-
-
-/* *{
+@media only screen and (max-width: 375px) {
+  
+    
+ *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -213,6 +284,10 @@ header{
     position: relative;
 }
 
+#dropdown{
+    display: block;
+}
+
 nav ul li {
     display: block;
     padding: 1rem 2rem;
@@ -228,69 +303,58 @@ img{
     max-width: 100%;
 }
 
-.img-abs{
-    position: absolute;
-    top: 0;
+.section-one{
+    align-items: center;
+    flex-direction:column-reverse;
+    justify-content: space-around;
 }
 
-.img-rel{
-    position: relative;
-}
-
-.easy-bank{
-    margin-top: 300px;
+.intro{
+    align-items: center;
     text-align: center;
-    margin-top: 100px; 
-    padding: 16px;
-
+    width: 100%;
+    margin-top: 100px;
 }
 
-.why{
+.section-two{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.section-two h1{
     text-align: center;
-    padding: 16px;
-    gap: 10px;
-    background-color: hsl(0, 0%, 98%);
+}
+.st-text p{
+    text-align: center;
 }
 
-.why img{
+
+.cards{
+    display: grid;
+}
+
+.card-content{
+    align-items: center;
+    text-align: center;
+}
+
+#st-header{
+    text-align: center;
+    align-items: center;
+    /* font-size: 15px; */
+}
+
+.articles{
     display: block;
-    margin: auto;
-    margin-bottom: 6px;
-    
-} 
-
-
-.l-articles{
-    text-align: center;
 }
 
-.l-articles h2{
-    padding: ;
-    text-align: center;
+.articles p {
     margin-bottom: 10px;
 }
 
-.article-img{
-    border-top-left-radius:10px;
-    border-top-right-radius:10px; }
-
-.article-txt{
-    padding: 100px;
-}
-
-.bttn{
-    background: linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-    color: white;
-    border-radius: 15px;
-    padding: 10px;
-    border: none;
-    margin-top: 10px;
-}
-
 footer{
+    display: block;
     text-align: center;
-    background-color:hsl(233, 26%, 24%);
-    color: hsl(0, 0%, 98%);
 }
 
 .icons{
@@ -299,7 +363,6 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    /* text-decoration: none; 
 }
 
 .abt-us{
@@ -309,6 +372,15 @@ footer{
     margin-top: 15px;
     }
 
-    footer p{
-        margin-top: 10px;
-    } */
+.btn-copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+ }
